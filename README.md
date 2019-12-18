@@ -7,4 +7,7 @@ Does not include my custom docker-compose file, because I am too lazy to obfusca
 enjoy!
 
 ## Inspiration
-(dev.to/foresthoffman/hosting-wordpress-over-https-with-docker)[https://dev.to/foresthoffman/hosting-wordpress-over-https-with-docker-5gc]
+[dev.to/foresthoffman/hosting-wordpress-over-https-with-docker](https://dev.to/foresthoffman/hosting-wordpress-over-https-with-docker-5gc)
+
+
+
