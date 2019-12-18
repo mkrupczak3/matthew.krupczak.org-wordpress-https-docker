@@ -1,0 +1,7 @@
+# .gitignore
+*.pyc
+*~
+\#*\#
+.\#*
+docker-compose.yml
+logs*

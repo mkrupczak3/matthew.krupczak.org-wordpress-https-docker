@@ -1,0 +1,4 @@
+# Renew Let's Encrypt SSL Certificates that have < 30 days to go,
+# in the morning (UTC time).
+# 0 11 * * * /usr/bin/certbot renew --quiet
+0 */12 * * * root test -x /usr/bin/certbot -a \! -d /run/systemd/system && perl -e 'sleep int(rand(3600))' && certbot -q renew --pre-hook "service nginx stop" --post-hook "service nginx start"
